@@ -44,14 +44,32 @@ a {
 }
 
 .img-stone {
-    height: 100px;
-    width: 200px;
+    height: 200px;
+    width: 100%;
     background-image: url(./images/stonewall.jpg);
     background-size: cover;
     background-position: center;
 }
 
-.about-me h3 {
-    margin-left: 30px;
-    font-size: 200px;
+.column h3 {
+    float: left;
+    width: 30%;
+    font-size: 40px;
+    border-right: solid;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.work-img {
+    height: 300px;
+    width: 300px;
+    flex-wrap: wrap;
+    border-radius: 50px;
+}
+
+.contact-info li {
+    display: inline;
 }
