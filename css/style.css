@@ -5,13 +5,13 @@
 }
 
 body {
-    background-color: #b6ddda;
+    background-color: rgb(143, 198, 202);
 }
 
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #262a2a;
+    background-color: rgb(250, 179, 191);
     color: #ffffff;
 }
 
@@ -43,33 +43,94 @@ a {
     text-decoration: none;
 }
 
-.img-stone {
-    height: 200px;
+.header_img {
+    height: 300px;
     width: 100%;
-    background-image: url(./images/stonewall.jpg);
+    background-image: url(./images/becoming\ a\ software\ engineer.jpeg);
     background-size: cover;
     background-position: center;
 }
 
-.column h3 {
-    float: left;
-    width: 30%;
+.column h3{
     font-size: 40px;
-    border-right: solid;
+    position: relative;
+    margin-right: 200px;
+    margin-top: 20px;
 }
 
-.row::after {
-    content: "";
-    display: table;
-    clear: both;
+.w3-cell-row {
+    display: flex;
+    width: 100%;
 }
-.work-img {
+
+#work_text,
+#aboutme_text,
+#resume_text,
+#contactme_text {
+    flex: 20%;
+    border-right: 2px solid black;
+}
+
+#project_1 {
+    width: 100%;
+}
+
+#project_2 {
+    display: flex;
+    width: 90%;
+}
+
+#project_3 {
+    display: flex;
+    width: 90%;
+}
+
+.pics {
+    flex:70%;
+    margin-left: 70px;
+}
+
+.image1,
+.image2,
+.image3,
+.image4,
+.image5 {
     height: 300px;
     width: 300px;
-    flex-wrap: wrap;
     border-radius: 50px;
 }
 
+.image1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 90%;
+  }
+  .image2 {
+    flex: 50%;
+    margin: 20px;
+  }
+  .image3 {
+   flex: 50%;
+   margin: 20px;
+  }
+  .image4 {
+   flex: 50%;
+   margin: 20px;
+  }
+  .image5 {
+    flex: 50%;
+    margin: 20px;
+  }
+
+  #loading {
+    height: 400px;
+    width: 77%;
+    border-radius: 50px;
+  }
+
 .contact-info li {
     display: inline;
+    flex:70%;
+    margin-left: 20px;
 }
