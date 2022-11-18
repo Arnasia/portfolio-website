@@ -38,6 +38,10 @@ body {
     margin-left: 25px;
 }
 
+.textsize{
+    font-size: 18px;
+}
+
 a {
     color: #ffffff;
     text-decoration: none;
