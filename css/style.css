@@ -78,17 +78,70 @@ a {
 }
 
 #project_1 {
+    position: relative;
     width: 100%;
 }
 
+.img1_text {
+    position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px; 
+}
+
 #project_2 {
+    position: relative;
     display: flex;
     width: 90%;
 }
 
+.img2_text {
+      position: absolute;
+      bottom: 30px;
+      left: 40px;
+      background-color: black;
+      color: white;
+      padding-left: 20px;
+      padding-right: 20px; 
+}
+
+.img3_text {
+    position: absolute;
+    bottom: 30px;
+    right: 330px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px; 
+}
+
 #project_3 {
+    position: relative;
     display: flex;
     width: 90%;
+}
+
+.img4_text {
+    position: absolute;
+    bottom: 30px;
+    left: 40px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px; 
+}
+
+.img5_text { 
+    position: absolute;
+    bottom: 30px;
+    right: 270px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px; 
 }
 
 .pics {
@@ -146,4 +199,11 @@ a {
 
 .contactlist li{
     display: inline;
+}
+
+.footer {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(250, 179, 191);
 }
